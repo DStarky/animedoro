@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <title>Pomodoro Timer</title>
+</head>
+
+<body>
+
+  <div class="timer">
+
+
+    <div class="timer__progress-bar">
+
+      <svg viewBox="-62.5 -62.5 625 625" version="1.1" xmlns="http://www.w3.org/2000/svg" class="timer__svg">
+        <circle r="240" cx="250" cy="250" fill="transparent" stroke-width="30" stroke-dasharray="1507.2px" stroke-dashoffset="0" class="timer__full"></circle>
+        <circle r="240" cx="250" cy="250" stroke-width="42" stroke-linecap="round" stroke-dashoffset="1200px" fill="transparent" stroke-dasharray="1507.2px" class="timer__progress"></circle>
+        <circle r="240" cx="250" cy="250" stroke-width="42" stroke-linecap="round" stroke-dashoffset="1507.2px" fill="transparent" stroke-dasharray="1507.2px" class="timer__extra"></circle>
+      </svg>
+        
+    </div>
+
+  </div>
+  <p class="time"><span class="time__minutes">33</span> : <span class="time__seconds">33</span></p>
+  <button class="btn btn__play">start</button>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
+
